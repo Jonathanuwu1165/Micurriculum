@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jonathan Adan Alonso Soto — Portafolio / CV</title>
+  <meta name="description" content="Portafolio y currículum de Jonathan Adan Alonso Soto — Desarrollo de Software, experiencia académica y laboral." />
+  <meta name="keywords" content="Portafolio, Currículum, Jonathan Alonso Soto, Desarrollo de Software, Conalep, UTL" />
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav-cuadros">
+    <a href="#presentacion">Presentación</a>
+    <a href="#academico">Académico</a>
+    <a href="#laboral">Laboral</a>
+  </nav>
+  <main>
+    <!-- Presentación Personal -->
+    <section id="presentacion">
+      <div class="presentacion-centrada">
+        <img src="../imagenes/image.png" alt="Jonathan Adan Alonso Soto" class="presentacion-img-normal">
+        <h1>Jonathan Adan Alonso Soto</h1>
+        <p><strong>Edad:</strong> 19 años<br>
+        <strong>Ciudad de nacimiento:</strong> León, Gto.<br>
+        <strong>Fortalezas:</strong> Responsable, proactivo, aprendo las cosas demasiado rápido.<br>
+        <strong>Sobre mí:</strong> Soy una persona dedicada, con muchas ganas de aprender y crecer profesionalmente. Me adapto fácilmente a los cambios y disfruto trabajar en equipo. Me apasiona la tecnología, el arte y los retos que implican superarme día a día.</p>
+      </div>
+    </section>
+
+    <!-- Formación Académica -->
+    <section id="academico">
+      <h2 class="section-title">Formación Académica</h2>
+      <div class="personas-grid">
+        <article class="card-persona">
+          <img src="../imagenes/cona.png" alt="Conalep">
+          <h5>CONALEP León II</h5>
+          <p><strong>Periodo:</strong> 2020 - 2023<br>
+          <strong>Carrera:</strong> Profesional Técnico Bachiller en Informática<br>
+          <strong>Descripción:</strong> Aprendí varios lenguajes de programación (Python, HTML, CSS, aplicaciones móviles, redes). Obtuve una sólida base en informática y tecnología.</p>
+        </article>
+        <article class="card-persona">
+          <img src="../imagenes/UTL.jpg" alt="UTL">
+          <h5>Universidad Tecnológica de León (UTL)</h5>
+          <p><strong>Periodo:</strong> 2023 - 2026 (En curso)<br>
+          <strong>Carrera:</strong> Ingeniería en Desarrollo y Gestión de Software<br>
+          <strong>Descripción:</strong> Actualmente cursando la ingeniería, profundizando en desarrollo de software, metodologías ágiles y nuevas tecnologías.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section id="laboral">
+      <h2 class="section-title">Experiencia Laboral</h2>
+      <div class="personas-grid">
+        <article class="card-persona">
+          <img src="../imagenes/mesero.jpg" alt="Mesero">
+          <h5>Mesero</h5>
+          <p><strong>Duración:</strong> 6 meses<br>
+          <strong>Descripción:</strong> Atendí a varias personas, brindando un excelente servicio al cliente. El trabajo fue demandante pero enriquecedor, mejorando mis habilidades de comunicación y atención.</p>
+        </article>
+        <article class="card-persona">
+          <img src="../imagenes/toldo.jpg" alt="Ayudante en tienda de toldos">
+          <h5>Ayudante en tienda de toldos</h5>
+          <p><strong>Duración:</strong> 8 meses<br>
+          <strong>Descripción:</strong> Realicé diseño, instalación y mantenimiento de toldos, así como mantenimiento de computadoras y herramientas pesadas. Aprendí a trabajar bajo presión y a resolver problemas técnicos.</p>
+        </article>
+        <article class="card-persona">
+          <img src="../imagenes/gym.jpg" alt="Recepcionista de gimnasio">
+          <h5>Recepcionista de gimnasio</h5>
+          <p><strong>Duración:</strong> 1 año<br>
+          <strong>Descripción:</strong> Mejoré mi trato con la gente, desarrollando habilidades de atención al cliente y gestión administrativa. Esta experiencia me ayudó a crecer personal y profesionalmente.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>Jonathan Adan Alonso Soto</strong>
+        <div class="copyright">&copy; <span id="year"></span></div>
+      </div>
+      <div class="socials">
+        <a href="#presentacion">Inicio</a>
+        <a href="#academico">Académico</a>
+        <a href="#laboral">Laboral</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+ 
